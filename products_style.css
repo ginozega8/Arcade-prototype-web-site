@@ -1,0 +1,154 @@
+p{
+    text-align: center;
+    
+ }
+
+ *{
+   margin: 0;
+   padding: 0;  
+ }
+ header{
+   text-align: center;
+   background: rgb(22, 22, 22);
+   min-width: 500px;
+ }
+
+ .logo{
+    width: 100%;
+    
+ }
+
+ nav li{
+   display: inline-block;
+   padding: 10px 4vw 10px 4vw;;
+   font-size: xx-large;
+}
+
+nav {
+   text-align: center;
+   background: rgb(22, 22, 22);
+   text-decoration: none;
+   min-width: 500px;
+   border-bottom: 1px solid red;
+}
+
+nav a {
+    
+   text-decoration: none;
+color: antiquewhite;
+}
+
+nav a:hover{
+   color: #b61010;
+}
+
+body{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+h2{
+    font-size: xx-large;
+    margin: 40px;
+}
+
+.navegacion{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    font-size: x-large;
+    
+ }
+
+ .prod{
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2em;
+    text-align: center;
+    background: linear-gradient(rgb(24, 24, 24),rgb(0, 0, 0));
+    display: inline-block;
+ }
+ .prod button:hover {
+    background-color: #b61818;
+    
+  }
+
+ .prod button{
+       border: none;
+     outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: all 0.5s;
+ }
+
+ .card{
+     width: 80%;
+ }
+
+
+
+ footer{
+    text-align: center;
+    background: rgb(22, 22, 22);
+    min-width: 500px;
+   }
+
+   td {
+      text-align: left;
+      padding: 0.2vw 4vw 0.2vw 4vw;
+   }
+
+   .first td {
+      padding-top: 20px;
+   }
+
+   footer hr{
+      margin: 2rem;
+      height: 0.1px;
+   }
+
+   .social {
+      width: 12%;
+      
+   }
+
+
+
+   @media screen and (max-width:1000px) {
+      body {
+         width: 1000px;
+      }
+      p {
+         font-size: larger;
+      }
+
+     footer {
+      width: 1000px;
+   }
+   nav li {
+      font-size: xx-large;
+      display: inline-block;
+      margin: 10px;
+   }
+
+
+   }
+
+
+    
+
+
+
+
+
+
+ 
+
